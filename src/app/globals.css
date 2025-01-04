@@ -27,5 +27,6 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: "Lexend", serif;
-  font-size: 18px;
+  @apply text-[14px] sm:text-[18px];
 }
+
